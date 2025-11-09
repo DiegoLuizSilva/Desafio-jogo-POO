@@ -1,6 +1,6 @@
 from personagem import Personagem
 from utils import registrar_acao, linha_separadora, COR_ERRO, COR_SUCESSO, COR_CURA, COR_HEROI
-from.personagem import Personagem
+from personagem import Personagem
 
 class Heroi(Personagem):
     def __init__(self, nome, idade, vida, ataque, defesa, nivel_heroismo):
